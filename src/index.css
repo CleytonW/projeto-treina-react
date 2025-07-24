@@ -1,31 +1,23 @@
-.btn-primary{
-    background-color: blueviolet!important;
-    border-color: rgb(10, 0, 10) !important;
-    
+.btn-primary {
+  background-color: rgb(255, 123, 0) !important;
+  background-color: rgb(255, 123, 0) !important;
 }
 
 .btn-primary:hover {
-  background-color: rgb(64,0,123) !important;
-
+  background-color: rgb(255, 123, 0) !important;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
+.bg-body-primary {
+  background-color: rgb(255, 123, 0) !important;
 }
+
 
 .form-link {
-    text-decoration: none;
-    color: rgb(27, 27, 27);
-  }
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+}
 
-  .form-link:hover {
-    color: rgb(255, 123, 0);
-    transition: 0.25s;
-  }
-
-  
+.form-link:hover {
+  color: rgb(255, 123, 0);
+  transition: 0.25s;
+}
