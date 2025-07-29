@@ -1,14 +1,18 @@
 import { useState } from "react";
 import logo from "../../assets/Sem título.png";
 import "./login.css";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
     const[email, setEmail] = useState("");
     const[senha, setSenha] = useState("");
     const[ManterConectado, setManterConectado] = useState(true);
+
+    const navigate = useNavigate();
     
     const enviarForumlario = () => {
         console.log({ email, senha, ManterConectado });
+        navigate("/home");
     }
 
     return (
