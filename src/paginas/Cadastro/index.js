@@ -100,7 +100,7 @@ function Cadastro() {
           </div>
         </div>
 
-        <button className="btn btn-primary" onClick={() => {}}>Enviar</button>
+        <button className="btn btn-primary" onClick={(e) => {}}>Enviar</button>
       </form>
 
       <Rodape />

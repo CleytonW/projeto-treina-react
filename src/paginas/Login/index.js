@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../../assets/Sem título.png";
+import logo from "../../assets/treina_recife_logo.png";
 import "./login.css";
 import { useNavigate } from "react-router-dom";
 

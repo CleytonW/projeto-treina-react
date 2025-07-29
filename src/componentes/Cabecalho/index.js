@@ -1,4 +1,4 @@
-import logo from "../../assets/Sem título.png"
+import logo from "../../assets/treina_recife_logo.png"
 
 function Cabecalho() {
     return (
